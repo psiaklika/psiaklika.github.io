@@ -1,0 +1,79 @@
+baseURL = "http://example.org/"
+languageCode = "pl-PL"
+title = "Psia Klika"
+theme = "timer-hugo"
+publishdir = "../"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "O Nas"
+        url     = "/about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Oferta Szkoleń"
+        url     = "/services"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Hotel"
+        url     = "/hotel"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Terminy i Cennik"
+        url     = "/pricing"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Kontakt"
+        url     = "/contact"
+        weight  = 6
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Airspace Hugo theme"
+    author = "Themefisher"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "PSIA KLIKA"
+        description = "SZKOLENIA DLA TWOJEGO PSA I NIE TYLKO!"
+        btn     = false
+        btnText = "Download More"
+        btnURL  = "https://themefisher.com/"
+        [[params.banner.flipText]]
+            title   = "SZKOLENIA"
+        [[params.banner.flipText]]
+            title   = "HOTEL"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "O NAS"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "ZAPRASZAMY DO KONTAKTU"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        btnText = "Napisz do nas"
+        btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "Ostatnie Szkolenia"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    
