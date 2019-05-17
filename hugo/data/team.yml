@@ -1,7 +1,7 @@
 enable  : true
 title   : MEET THE TEAM
 members  :
-  - name  : Jonathon Andrew
+  - name  : Piotrek 1
     image : images/team/team-1.jpg
     designation : CEO, Project Manager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -10,7 +10,7 @@ members  :
     linkedIn    : https://www.linkedin.com/themefisher
     googleplus  : https://plus.google.com/themefisher
   
-  - name  : Jesmin Martina
+  - name  : Piotrek 2
     image : images/team/team-2.jpg
     designation : CEO, Project Manager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -19,7 +19,7 @@ members  :
     linkedIn    : https://www.linkedin.com/themefisher
     googleplus  : https://plus.google.com/themefisher
   
-  - name  : Deu John
+  - name  : : Piotrek 3
     image : images/team/team-3.jpg
     designation : CEO, Project Manager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -28,7 +28,7 @@ members  :
     linkedIn    : https://www.linkedin.com/themefisher
     googleplus  : https://plus.google.com/themefisher
 
-  - name  : Anderson Martin
+  - name  : : Piotrek 4
     image : images/team/team-4.jpg
     designation : CEO, Project Manager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
