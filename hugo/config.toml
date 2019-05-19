@@ -1,4 +1,4 @@
-baseURL = "https://psiaklika.github.io"
+baseURL = "https://psiaklika.pl"
 languageCode = "pl-PL"
 title = "Psia Klika"
 theme = "timer-hugo"
