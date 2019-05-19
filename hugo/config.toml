@@ -36,8 +36,9 @@ publishdir = "../"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Airspace Hugo theme"
-    author = "Themefisher"
+    description = "Psia Klika -- szkolenia dla Twojego psa i nie tylko"
+    author = "Piotr Wojciechowski"
+    keywords = "psiaklika,psia,klika,psy,szkolenia,psi hotel,psie szkolenia,hotel dla psów"
     # Google Analitycs
     googleAnalitycsID = "Your ID"
 
