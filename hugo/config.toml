@@ -3,6 +3,7 @@ languageCode = "pl-PL"
 title = "Psia Klika"
 theme = "timer-hugo"
 publishdir = "../"
+enableRobotsTXT = true
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
