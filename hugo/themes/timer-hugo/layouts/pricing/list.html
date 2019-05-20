@@ -1,0 +1,81 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.foo.enable }}
+{{ "<!-- Pricing Section Start -->" | safeHTML }}
+
+<section id="pricing-page" class="pages pricing-page">
+
+    <div class="container">
+        <div class="row"><div class="col-lg-6">
+            {{ with .Site.Data.foo.title }}<h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+            {{ with .Site.Data.foo.subtitle }}<p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ . }}</p>{{ end }}
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1">
+                <div class="block">
+                    <div class="row pricing-parts">
+                        {{ range .Site.Data.foo.serviceItem }}
+                        <div class="col-md-6">
+                            <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                                <!-- {{ with .icon }}<i class="{{ . }}"></i>{{ end }} -->
+                                {{ with .title }}<h4>{{ . }}</h4>{{ end }}
+                                {{ with .price }}<p>Cena: <b>{{ . }}</b></br>{{ end }}
+                                {{ with .description }}Czas Trwania: {{ . }}</p><br>{{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ with .Site.Data.foo.image }}
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="block">
+                    <img class="img-fluid" src="{{ . | absURL }}" alt="about-image">
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<section id="pricing-page" class="pages pricing-page">
+
+    <div class="container">
+        <div class="row"><div class="col-lg-6">
+            {{ with .Site.Data.foo.title2 }}<h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+            {{ with .Site.Data.foo.subtitle2 }}<p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ . }}</p>{{ end }}
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1">
+                <div class="block">
+                    <div class="row pricing-parts">
+                        {{ range .Site.Data.foo.serviceItem2 }}
+                        <div class="col-md-6">
+                            <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                                <!-- {{ with .icon }}<i class="{{ . }}"></i>{{ end }} -->
+                                {{ with .title }}<h4>{{ . }}</h4>{{ end }}
+                                {{ with .price }}<p>Cena: <b>{{ . }}</b></br>{{ end }}
+                                {{ with .description }}Daty: {{ . }}</p><br>{{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{ "<!-- Pricing Section End -->" | safeHTML }}
+{{ end }}
+
+<!-- {{ partial "clients.html" . }} -->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
