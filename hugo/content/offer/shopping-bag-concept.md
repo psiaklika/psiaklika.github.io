@@ -1,11 +1,11 @@
 ---
-title: "Szkolenie w Poznaniu"
+title: "Wspólne spacery"
 type: portfolio
-date: 2018-07-12T16:54:54+06:00
+date: 2018-07-12T16:58:55+06:00
 description : "This is meta description"
-caption: Product Mockup
-image: images/portfolio/item-2.jpg
-category: ["mockup","design"]
+caption: Conceptual Design
+image:
+category: ["bag","mockup"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
 submitDate: November 20, 2017

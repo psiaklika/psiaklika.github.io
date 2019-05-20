@@ -1,11 +1,11 @@
 ---
-title: "Trening personalny"
+title: "Doskonalenie umiejętności"
 type: portfolio
-date: 2018-07-12T16:56:54+06:00
+date: 2018-07-12T16:53:54+06:00
 description : "This is meta description"
-caption: 3D Model Design
-image: images/portfolio/item-3.jpg
-category: ["3d-model","product"]
+caption: Redesigns UI Concept
+image:
+category: ["typography","letters"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
 submitDate: November 20, 2017

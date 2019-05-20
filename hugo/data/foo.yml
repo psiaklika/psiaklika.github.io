@@ -1,0 +1,43 @@
+enable  : true
+title   : CENNIK
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci
+title2   : TERMINY
+subtitle2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci
+image   : images/team.jpg
+serviceItem :
+  - icon  : ion-ios-paper-outline
+    title : PSIE PRZEDSZKOLE
+    price : 123,00 PLN
+    description: 1 spotkanie 60 min
+
+  - icon  : ion-ios-pint-outline
+    title : SZKOLENIE
+    price : 1230,00 PLN
+    description: 10 spotkań 60 min
+
+  - icon  : ion-ios-paper-outline
+    title : WSPÓLNY SPACER
+    price : 123 PLN
+    description: 1 spotkanie 60 min
+
+  - icon  : ion-ios-paper-outline
+    title : PRYWATNE PORADY
+    price : 123 PLN
+    description: 1 spotkanie 60 min
+
+serviceItem2 :
+  - icon  : ion-ios-paper-outline
+    title : MAJ    
+    description: 20.05 -- 31.05
+
+  - icon  : ion-ios-pint-outline
+    title : CZERWIEC    
+    description: 01.06 -- 30.06
+
+  - icon  : ion-ios-paper-outline
+    title : LIPIEC    
+    description: 01.07 -- 31.06
+
+  - icon  : ion-ios-paper-outline
+    title : SIERPIEŃ    
+    description: 01.08 -- 31.08

@@ -1,11 +1,11 @@
 ---
-title: "Wspólny spacer na Żoliborzu"
+title: "Przedszkole dla psów"
 type: portfolio
-date: 2018-07-12T16:58:55+06:00
+date: 2018-07-12T16:54:54+06:00
 description : "This is meta description"
-caption: Conceptual Design
-image: images/portfolio/item-5.jpg
-category: ["bag","mockup"]
+caption: Product Mockup
+image:
+category: ["mockup","design"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
 submitDate: November 20, 2017

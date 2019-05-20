@@ -1,10 +1,10 @@
 ---
-title: "Szkolenie na Kabatach"
+title: "Szkolenia"
 type: portfolio
 date: 2018-07-12T16:59:54+06:00
 description : "This is meta description"
 caption: Product Design
-image: images/portfolio/item-6.jpg
+image:
 category: ["product","mockup","design"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
