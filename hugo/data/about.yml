@@ -1,20 +1,17 @@
 enable  : true
 title   : O Nas
 description: >
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Szkoła Psia Klika prowadzi szkolenia dla psów w każdym wieku i każdej rasy. Uczymy naszych Klientów rozpoznawać i spełniać psie potrzeby. Dzięki jasnej komunikacji i wzajemnemu zrozumieniu, razem stworzymy więź zbudowaną na solidnych fundamentach umożliwiającą wspólne, wspaniałe życie.
   <br>
-  <br>
-  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+  <br>  
 image   : images/about/about-company.jpg
 aboutItem:
   - title : Dlaczego My?
-    description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
-
+    description: >
+       Naszą misją jest budowanie mocnej i prawidłowej relacji między psem i jego właścicielem. Pracujemy używając jedynie pozytywnych metod szkoleniowych.
   - title : Co oferujemy?
-    description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
-
-  - title : Pełen Profesjonalizm
-    description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+    description: >
+      Zajęcia grupowe odbywają się na terenie Parku Górczewska (Jelonki, Bemowo) oraz na zielonym terenie przy Centrum Olimpijskim (Żoliborz). Zajęcia indywidualne są dopasowane do możliwości psa i Twoich oczekiwań.
+  - title : Psi Hotel
+    description: >
+      Prowadzimy również kameralny, domowy hotel dla psów.

@@ -61,14 +61,14 @@ enableRobotsTXT = true
     [params.about]
         enable  = true
         title   = "Dlaczego my?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-        image   = "images/about/about.jpg"
+        content = "Szkoła Psia Klika prowadzi szkolenia dla psów w każdym wieku i każdej rasy. Naszą misją jest budowanie mocnej i prawidłowej relacji między psem i jego właścicielem. Pracujemy używając jedynie pozytywnych metod szkoleniowych."
+        image   = "images/about/logo-big.png"
 
     # Call to Action
     [params.cta]
         enable  = true
         title   = "ZAPRASZAMY DO KONTAKTU"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        content = "Napisz lub zadzowń do nas! Chętnie udzielimy więcej informacji i pomożemy w wyborze odpowiedniej oferty dla Ciebie i Twojego psa."
         btnText = "Napisz do nas"
         btnURL  = "/contact"
     
