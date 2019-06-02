@@ -41,7 +41,7 @@ enableRobotsTXT = true
     author = "Piotr Wojciechowski"
     keywords = "psiaklika,psia,klika,psy,szkolenia,psi hotel,psie szkolenia,hotel dla psów"
     # Google Analitycs
-    googleAnalitycsID = "Your ID"
+    googleAnalitycsID = "UA-90751160-2"
 
     # Banner Section
     [params.banner]
