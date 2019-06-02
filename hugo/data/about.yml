@@ -1,17 +1,27 @@
 enable  : true
 title   : O Nas
 description: >
-  Szkoła Psia Klika prowadzi szkolenia dla psów w każdym wieku i każdej rasy. Uczymy naszych Klientów rozpoznawać i spełniać psie potrzeby. Dzięki jasnej komunikacji i wzajemnemu zrozumieniu, razem stworzymy więź zbudowaną na solidnych fundamentach umożliwiającą wspólne, wspaniałe życie.
+  Szkoła Psia Klika prowadzi szkolenia dla psów w każdym wieku i każdej rasy. Naszą misją jest budowanie mocnej i prawidłowej relacji między psem i jego właścicielem. 
   <br>
-  <br>  
-image   : images/about/about-company.jpg
-aboutItem:
-  - title : Dlaczego My?
-    description: >
-       Naszą misją jest budowanie mocnej i prawidłowej relacji między psem i jego właścicielem. Pracujemy używając jedynie pozytywnych metod szkoleniowych.
-  - title : Co oferujemy?
-    description: >
-      Zajęcia grupowe odbywają się na terenie Parku Górczewska (Jelonki, Bemowo) oraz na zielonym terenie przy Centrum Olimpijskim (Żoliborz). Zajęcia indywidualne są dopasowane do możliwości psa i Twoich oczekiwań.
-  - title : Psi Hotel
-    description: >
-      Prowadzimy również kameralny, domowy hotel dla psów.
+  <br>
+  Pracujemy używając jedynie pozytywnych metod szkoleniowych. Uczymy naszych Klientów rozpoznawać i spełniać psie potrzeby. Dzięki jasnej komunikacji i wzajemnemu zrozumieniu, razem stworzymy więź zbudowaną na solidnych fundamentach umożliwiającą wspólne, wspaniałe życie.
+  <br>
+  <br>
+  Zajęcia grupowe odbywają się na terenie Parku Górczewska (Jelonki, Bemowo) oraz na zielonym terenie przy Centrum Olimpijskim (Żoliborz). Terminy oraz dostępne warianty zajęć można znaleźć w zakładce <b>TERMINY</b> I <b>CENNIK</b>. 
+  <br>
+  <br>
+  Zajęcia indywidualne są dopasowane do możliwości psa i Twoich oczekiwań. 
+  <br>
+  <br>
+  Prowadzimy również kameralny,  domowy hotel dla psów. 
+image   : images/about/about-us.jpg
+# aboutItem:
+#   - title : Dlaczego My?
+#     description: >
+#        Naszą misją jest budowanie mocnej i prawidłowej relacji między psem i jego właścicielem. Pracujemy używając jedynie pozytywnych metod szkoleniowych.
+#   - title : Co oferujemy?
+#     description: >
+#       Zajęcia grupowe odbywają się na terenie Parku Górczewska (Jelonki, Bemowo) oraz na zielonym terenie przy Centrum Olimpijskim (Żoliborz). Zajęcia indywidualne są dopasowane do możliwości psa i Twoich oczekiwań.
+#   - title : Psi Hotel
+#     description: >
+#       Prowadzimy również kameralny, domowy hotel dla psów.

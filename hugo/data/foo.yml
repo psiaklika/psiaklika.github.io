@@ -1,9 +1,9 @@
 enable  : true
-title   : CENNIK
+title   : TERMINY I CENNIK
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci
 title2   : TERMINY
 subtitle2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci
-image   : images/team.jpg
+image   : images/animal-background-black-and-white-933498.jpg
 serviceItem :
   - icon  : ion-ios-paper-outline
     title : PSIE PRZEDSZKOLE

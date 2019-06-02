@@ -1,10 +1,10 @@
 ---
 title: "Szkolenie szczeniąt"
 type: portfolio
-date: 2018-07-12T16:54:54+06:00
+date: 2018-09-12T16:54:54+06:00
 description : "Szkolenie szczeniąt: Psie przedszkole do 6 miesiąca życia."
 caption: Szkolenie szczeniąt
-image:
+image: images/playing-puppies-790638_640.jpg
 category: ["psie","przedszkole", "oferta"]
 ---
 ### Szkolenie szczeniąt: Psie przedszkole do 6 miesiąca życia

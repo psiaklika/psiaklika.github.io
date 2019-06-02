@@ -1,10 +1,10 @@
 ---
 title: "Szkolenia dla psów powyżej 6 miesiąca"
 type: portfolio
-date: 2018-07-12T16:54:54+06:00
+date: 2018-08-12T16:54:54+06:00
 description : "Szkolenia dla psów powyżej 6 miesiąca"
 caption: Szkolenia dla psów powyżej 6 miesiąca
-image:
+image: images/el-salvador-1782203_640.jpg
 category: ["psie","przedszkole", "oferta"]
 ---
 ### Szkolenia dla psów powyżej 6 miesiąca

@@ -4,7 +4,7 @@ type: portfolio
 date: 2018-07-12T16:54:54+06:00
 description : "Szkolenie Indywidualne"
 caption: Szkolenie Indywidualne
-image:
+image: images/puppy-3014072_640.jpg
 category: ["psie","przedszkole", "oferta"]
 ---
 ### Szkolenie Indywidualne
