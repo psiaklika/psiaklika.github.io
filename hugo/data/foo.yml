@@ -1,43 +1,45 @@
 enable  : true
-title   : TERMINY I CENNIK
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci
-title2   : TERMINY
-subtitle2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci
+title   : CENNIK
+subtitle: 
 image   : images/animal-background-black-and-white-933498.jpg
 serviceItem :
   - icon  : ion-ios-paper-outline
-    title : PSIE PRZEDSZKOLE
-    price : 123,00 PLN
-    description: 1 spotkanie 60 min
+    title : KURS PSIE PRZEDSZKOLE
+    price : 450,00 PLN    
 
   - icon  : ion-ios-pint-outline
-    title : SZKOLENIE
-    price : 1230,00 PLN
-    description: 10 spotkań 60 min
+    title : KURS DLA PSÓW DOROSŁYCH
+    price : 450,00 PLN
 
   - icon  : ion-ios-paper-outline
-    title : WSPÓLNY SPACER
-    price : 123 PLN
+    title : SZKOLENIE INDYWIDUALNE
+    price : 750,00 PLN
     description: 1 spotkanie 60 min
 
-  - icon  : ion-ios-paper-outline
-    title : PRYWATNE PORADY
-    price : 123 PLN
-    description: 1 spotkanie 60 min
-
-serviceItem2 :
-  - icon  : ion-ios-paper-outline
-    title : MAJ    
-    description: 20.05 -- 31.05
-
-  - icon  : ion-ios-pint-outline
-    title : CZERWIEC    
-    description: 01.06 -- 30.06
-
-  - icon  : ion-ios-paper-outline
-    title : LIPIEC    
-    description: 01.07 -- 31.06
-
-  - icon  : ion-ios-paper-outline
-    title : SIERPIEŃ    
-    description: 01.08 -- 31.08
+workshopItem :
+  - title : "RODZAJ SZKOLENIA: Psie Przedszkole"
+    location :
+      - name : "Miejsce:  Park Górczewska"
+        line1 : "Tryb sobotnio-niedzielny zajęcia o godzinie 10:00"
+        line2 : "Początek kursu: 22.06.2019"
+        line3 : "Tryb środa- piątek o godzinie 18h30"
+        line4 : "Początek kursu: 19.06.2019"
+  
+      - name : "Miejsce:  Centrum Olimpijskie"
+        line1: "Tryb sobotnio-niedzielny zajęcia o godzinie 16:00"
+        line2: "Początek kursu: 22.06.2019"
+        line3:
+        line4:
+  - title : "RODZAJ SZKOLENIA: Szkolenie dla psów dorosłych GOOD DOG"
+    location :
+      - name : "Miejsce:  Park Górczewska"
+        line1 : "Tryb sobotnio-niedzielny zajęcia o godzinie 11:00"
+        line2 : "Początek kursu: 22.06.2019"
+        line3 : 
+        line4 : 
+  
+      - name : "Miejsce:  Centrum Olimpijskie"
+        line1: "Tryb wtorek- czwartek zajęcia o godzinie 18:30"
+        line2: "Początek 18.06.2019"
+        line3:
+        line4:

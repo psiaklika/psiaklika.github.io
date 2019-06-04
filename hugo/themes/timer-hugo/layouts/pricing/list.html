@@ -8,38 +8,46 @@
 <section id="pricing-page" class="pages pricing-page">
 
     <div class="container">
-        <div class="row"><div class="col-lg-6">
-            {{ with .Site.Data.foo.title }}<h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
-            {{ with .Site.Data.foo.subtitle }}<p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ . }}</p>{{ end }}
+        <div class="row">
+            <div class="col-lg-6">
+                {{ with .Site.Data.foo.title }}<h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+                {{ with .Site.Data.foo.subtitle }}<p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ . }}</p>{{ end }}
+            </div>
         </div>
-    </div>
         <div class="row">
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="block">
                     <div class="row pricing-parts">
                         {{ range .Site.Data.foo.serviceItem }}
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
                                 <!-- {{ with .icon }}<i class="{{ . }}"></i>{{ end }} -->
                                 {{ with .title }}<h4>{{ . }}</h4>{{ end }}
-                                {{ with .price }}<p>Cena: <b>{{ . }}</b></br>{{ end }}
-                                {{ with .description }}Czas Trwania: {{ . }}</p><br>{{ end }}
+                                {{ with .price }}<p>Cena: <b>{{ . }}</b></br>{{ end }}                                
                             </div>
                         </div>
                         {{ end }}
+                        <div class="col-md-8"><br/></div>
+                        <div class="col-md-8">
+                            <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
+                                <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">TERMINY</h2>
+                                <p>Uwaga! Będą tworzone dodatkowe grupy. Zadzwoń po więcej szczegółów.</p>
+                                <br/>
+                                {{ range .Site.Data.foo.workshopItem }}
+                                {{ with .title }}<h5>{{ . }}</h5>{{ end }}
+                                    {{ range .location }}                            
+                                        {{ with .name }}<p><u>{{ . }}</u></p>{{ end }}
+                                        
+                                        {{ with .line1 }}<p><h6>{{ . }}{{ end }}
+                                        {{ with .line2 }}<b>{{ . }}</b></h6></p>{{ end }}
+                                        
+                                        {{ with .line3 }}<p><h6>{{ . }}{{ end }}<br/>
+                                        {{ with .line4 }}<b>{{ . }}</b></h6></p>{{ end }}                                        
+                                    {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
                     </div>
-                    <div class="row pricing-parts">
-                        {{ range .Site.Data.foo.serviceItem2 }}
-                        <div class="col-md-6">
-                            <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
-                                <!-- {{ with .icon }}<i class="{{ . }}"></i>{{ end }} -->
-                                {{ with .title }}<h4>{{ . }}</h4>{{ end }}
-                                {{ with .price }}<p>Cena: <b>{{ . }}</b></br>{{ end }}
-                                {{ with .description }}Daty: {{ . }}</p><br>{{ end }}
-                            </div>
-                        </div>
-                        {{ end }}
-                    </div>                    
                 </div>
             </div>
             {{ with .Site.Data.foo.image }}
@@ -49,7 +57,8 @@
                 </div>
             </div>
             {{ end }}
-        </div>
+        </div>        
+
     </div>
 </section>
 
