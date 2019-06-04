@@ -18,10 +18,10 @@ enableRobotsTXT = true
         name    = "Oferta Szkoleń"
         url     = "/offer"
         weight  = 3
-    [[menu.nav]]
-        name    = "Hotel"
-        url     = "/hotel"
-        weight  = 4
+    # [[menu.nav]]
+    #     name    = "Hotel"
+    #     url     = "/hotel"
+    #     weight  = 4
     [[menu.nav]]
         name    = "Terminy i Cennik"
         url     = "/pricing"
