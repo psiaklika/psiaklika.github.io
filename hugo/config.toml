@@ -42,9 +42,9 @@ enableRobotsTXT = true
     keywords = "psiaklika,psia,klika,psy,szkolenia,psi hotel,psie szkolenia,hotel dla psów"
     # Google Analitycs
     googleAnalitycsID = "UA-90751160-2"
-    facebook = "facebook.com"
-    instagram = "instagram.com"
-    twitter = "twitter.com"
+    facebook = "https://www.facebook.com/psiaklika"
+    instagram = "https://instagram.com/psiaklika"
+    twitter = "https://twitter.com"
 
     # Banner Section
     [params.banner]
