@@ -2,7 +2,7 @@
 title: "Caramel Bottle"
 type: portfolio
 date: 2018-07-12T16:59:54+06:00
-description : "This is meta description"
+description : "Szkolenie psów, Szkolenie psów Bemowo, Szkolenie psów park gorczewska, psia klika, trening psa,  Szkolenie psów Zoliborz. Szkola dla psow, psy bemowo, hotel dla psow,  pomoc z psem, konsultacje behawiorystyczne,  Szkolenie indywidualne z psem, Psi hotel"
 caption: Product Design
 image: images/portfolio/item-6.jpg
 category: ["product","mockup","design"]
